@@ -1,5 +1,4 @@
 resource "azurerm_recovery_services_vault" "recovery_services_vault" {
-  count = var.enabled ? 1 : 0
 
   name                = local.vault_name
   location            = var.location
@@ -48,3 +47,4 @@ resource "azurerm_recovery_services_vault" "recovery_services_vault" {
     }
   }
 }
+
