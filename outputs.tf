@@ -1,7 +1,7 @@
 output "vault_id" {
-  value = try(azurerm_recovery_services_vault.recovery_services_vault[0].id, null)
+  value = azurerm_recovery_services_vault.recovery_services_vault.id
 }
 
 output "vault_name" {
-  value = try(azurerm_recovery_services_vault.recovery_services_vault[0].name, null)
+  value = azurerm_recovery_services_vault.recovery_services_vault.name
 }
