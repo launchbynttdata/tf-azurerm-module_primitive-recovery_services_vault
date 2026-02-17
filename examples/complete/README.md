@@ -48,7 +48,7 @@ No resources.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_recovery_vault_id"></a> [recovery\_vault\_id](#output\_recovery\_vault\_id) | ID of the Recovery Services Vault |
-| <a name="output_recovery_vault_name"></a> [recovery\_vault\_name](#output\_recovery\_vault\_name) | Name of the Recovery Services Vault |
-| <a name="output_resource_group_name"></a> [resource\_group\_name](#output\_resource\_group\_name) | Name of the resource group |
+| <a name="output_resource_group_name"></a> [resource\_group\_name](#output\_resource\_group\_name) | Resource group name |
+| <a name="output_recovery_services_vault_name"></a> [recovery\_services\_vault\_name](#output\_recovery\_services\_vault\_name) | Recovery Services Vault name |
+| <a name="output_recovery_services_vault_id"></a> [recovery\_services\_vault\_id](#output\_recovery\_services\_vault\_id) | Recovery Services Vault ID |
 <!-- END_TF_DOCS -->

@@ -1,14 +1,14 @@
-output "recovery_vault_id" {
-  description = "ID of the Recovery Services Vault"
-  value       = module.recovery_services_vault.vault_id
+output "resource_group_name" {
+  description = "Resource group name"
+  value       = module.resource_group.name
 }
 
-output "recovery_vault_name" {
-  description = "Name of the Recovery Services Vault"
+output "recovery_services_vault_name" {
+  description = "Recovery Services Vault name"
   value       = module.recovery_services_vault.vault_name
 }
 
-output "resource_group_name" {
-  description = "Name of the resource group"
-  value       = module.resource_group.name
+output "recovery_services_vault_id" {
+  description = "Recovery Services Vault ID"
+  value       = module.recovery_services_vault.vault_id
 }
