@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestRecoveryServicesVault(t *testing.T, ctx types.TestContext) {
+func TestComposableRecoveryServicesVault(t *testing.T, ctx types.TestContext) {
 
 	subscriptionId := os.Getenv("ARM_SUBSCRIPTION_ID")
 

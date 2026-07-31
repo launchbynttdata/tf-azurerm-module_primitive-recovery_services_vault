@@ -34,5 +34,5 @@ func TestRecoveryServicesVaultModule(t *testing.T) {
 		SetTestConfigFileName(infraTFVarFileNameDefault).
 		Build()
 
-	lib.RunSetupTestTeardown(t, *ctx, testimpl.TestRecoveryServicesVault)
+	lib.RunNonDestructiveTest(t, *ctx, testimpl.TestComposableRecoveryServicesVault)
 }

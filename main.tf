@@ -47,4 +47,3 @@ resource "azurerm_recovery_services_vault" "recovery_services_vault" {
     }
   }
 }
-
