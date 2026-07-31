@@ -3,8 +3,8 @@
 ## Requirements
 
 | Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
+| ---- | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.3 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~>3.117 |
 
 ## Modules
@@ -14,13 +14,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [azurerm_recovery_services_vault.recovery_services_vault](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/recovery_services_vault) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_classic_vmware_replication_enabled"></a> [classic\_vmware\_replication\_enabled](#input\_classic\_vmware\_replication\_enabled) | n/a | `bool` | `null` | no |
 | <a name="input_cross_region_restore_enabled"></a> [cross\_region\_restore\_enabled](#input\_cross\_region\_restore\_enabled) | n/a | `bool` | `false` | no |
 | <a name="input_encryption"></a> [encryption](#input\_encryption) | n/a | <pre>object({<br/>    key_id                            = string<br/>    infrastructure_encryption_enabled = bool<br/>    user_assigned_identity_id         = optional(string)<br/>    use_system_assigned_identity      = optional(bool, true)<br/>  })</pre> | `null` | no |
@@ -39,7 +39,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_vault_id"></a> [vault\_id](#output\_vault\_id) | n/a |
 | <a name="output_vault_name"></a> [vault\_name](#output\_vault\_name) | n/a |
 <!-- END_TF_DOCS -->
