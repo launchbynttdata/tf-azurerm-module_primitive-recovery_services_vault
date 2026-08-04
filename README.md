@@ -77,7 +77,7 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|---------|
+|------|------|
 | [azurerm_recovery_services_vault.recovery_services_vault](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/recovery_services_vault) | resource |
 
 ## Inputs
@@ -102,7 +102,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|---------|
+|------|-------------|
 | <a name="output_vault_id"></a> [vault\_id](#output\_vault\_id) | n/a |
 | <a name="output_vault_name"></a> [vault\_name](#output\_vault\_name) | n/a |
 <!-- END_TF_DOCS -->
